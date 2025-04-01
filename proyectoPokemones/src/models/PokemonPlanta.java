@@ -1,17 +1,39 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package models;
 
 /**
- *
+ * Interfaz que define los ataques específicos para Pokémon de tipo planta.
+ * 
  * @author juand
+ * @since 2025-03-31
+ * @version 1.0
  */
 public interface PokemonPlanta {
-    public abstract void atacarParalizar();
-    public abstract void atacarDrenaje();
-    public abstract void atacarHojaAfilada();
-    public abstract void atacarLatigoCepa();
-
+    
+    /**
+     * Realiza el ataque Paralizar.
+     * 
+     * @return true si el ataque se ejecuta correctamente.
+     */
+    public boolean atacarParalizar();
+    
+    /**
+     * Realiza el ataque Drenar.
+     * 
+     * @return true si el ataque se ejecuta correctamente.
+     */
+    public boolean atacarDrenar();
+    
+    /**
+     * Realiza el ataque Hoja Afilada.
+     * 
+     * @return true si el ataque se ejecuta correctamente.
+     */
+    public boolean atacarHojaAfilada();
+    
+    /**
+     * Realiza el ataque Látigo Cepa.
+     * 
+     * @return true si el ataque se ejecuta correctamente.
+     */
+    public boolean atacarLatigoCepa();
 }
