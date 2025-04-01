@@ -1,16 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package models;
 
 /**
- *
+ * Interfaz que define los ataques específicos para Pokémon de tipo fuego.
+ * 
  * @author juand
+ * @since 2025-03-31
+ * @version 1.0
  */
 public interface PokemonFuego {
-    public abstract void atacarPunioFuego();
-    public abstract void atacarAscuas();
-    public abstract void atacarLanzallamas();
-
+    
+    /**
+     * Realiza el ataque Puño Fuego.
+     * 
+     * @return true si el ataque se ejecuta correctamente.
+     */
+    public boolean atacarPunoFuego();
+    
+    /**
+     * Realiza el ataque Ascuas.
+     * 
+     * @return true si el ataque se ejecuta correctamente.
+     */
+    public boolean atacarAscuas();
+    
+    /**
+     * Realiza el ataque Lanzallamas.
+     * 
+     * @return true si el ataque se ejecuta correctamente.
+     */
+    public boolean atacarLanzallamas();
 }
