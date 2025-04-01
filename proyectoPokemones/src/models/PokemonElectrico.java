@@ -9,5 +9,10 @@ package models;
  * @author juand
  */
 public interface PokemonElectrico {
+    public abstract void atacarImpactrueno();
+    public abstract void atacarPuniotrueno();
+    public abstract void atacarRayo();
+    public abstract void atacarRayoCarga();
+    
     
 }
